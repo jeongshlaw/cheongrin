@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+body{
+  font-family: "Noto Sans KR", sans-serif!important;
+}
+
      @media (min-width: 800px) and (max-width: 850px) {
               .navbar:not(.top-nav-collapse) {
                   background: #1C2331!important;
@@ -8,4 +14,28 @@
 
 .carousel-item .view{
   background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.social{
+  height: 1rem;
+  width: auto;
+}
+
+.contact-btn{
+  width: 200px!important;
+  height: 50px!important;
+}
+
+#title {
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
