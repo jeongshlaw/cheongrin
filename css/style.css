@@ -2,6 +2,7 @@
 
 body{
   font-family: "Noto Sans KR", sans-serif!important;
+  word-break: keep-all;
 }
 
      @media (min-width: 800px) and (max-width: 850px) {
@@ -30,7 +31,7 @@ body{
   height: 50px!important;
 }
 
-#title {
+#title{
   height: 100%;
   width: 100%;
   background-position: center center;
@@ -38,4 +39,9 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.bg-img{
+    width: 100%;
+    height: auto;
 }
