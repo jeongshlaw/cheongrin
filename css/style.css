@@ -11,15 +11,8 @@ body{
               }
           }
 
-.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
 
-.carousel-item .view{
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 .social{
   height: 1rem;
@@ -44,4 +37,12 @@ body{
 .bg-img{
     width: 100%;
     height: auto;
+}
+
+.modal-content{
+  max-height: calc(100% - (0.5rem * 2));
+}
+
+.modal-title{
+  font-weight: 700!important;
 }
